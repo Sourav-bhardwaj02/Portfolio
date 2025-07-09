@@ -4,9 +4,11 @@
 <h1>PORTFOLIO</h1>
 <p><em>Showcase Your Brilliance, Inspire Future Opportunities</em></p>
 
-<img alt="last-commit" src="https://img.shields.io/github/last-commit/Sourav-bhardwaj02/Portfolio?style=flat&amp;logo=git&amp;logoColor=white&amp;color=0080ff" class="inline-block mx-1" style="margin: 0px 2px;">
-<img alt="repo-top-language" src="https://img.shields.io/github/languages/top/Sourav-bhardwaj02/Portfolio?style=flat&amp;color=0080ff" class="inline-block mx-1" style="margin: 0px 2px;">
-<img alt="repo-language-count" src="https://img.shields.io/github/languages/count/Sourav-bhardwaj02/Portfolio?style=flat&amp;color=0080ff" class="inline-block mx-1" style="margin: 0px 2px;">
+[![Made with HTML5](https://img.shields.io/badge/Made%20with-HTML5-E34F26?style=flat-square&logo=html5)](https://developer.mozilla.org/en-US/docs/Web/HTML)
+[![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?style=flat-square&logo=javascript)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3)](https://developer.mozilla.org/en-US/docs/Web/CSS)
+[![Responsive](https://img.shields.io/badge/Responsive-Mobile%20Friendly-brightgreen?style=flat-square&logo=mobile)](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps)
+
 <p><em>Built with the tools and technologies:</em></p>
 <img alt="Markdown" src="https://img.shields.io/badge/Markdown-000000.svg?style=flat&amp;logo=Markdown&amp;logoColor=white" class="inline-block mx-1" style="margin: 0px 2px;">
 </div>
