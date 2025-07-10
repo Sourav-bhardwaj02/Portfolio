@@ -6,52 +6,88 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+    rel="stylesheet" />
     <title>Portfolio Website</title>
 </head>
 <body>
     
     <header>
-       <h1> <a href="#" class="logo">Sourav</a></h1>
-
-       <nav>
-        <ul><hr>
-            <a href="Home" class=> Home</a>
-            <a href="Skill">Skills</a>
-            <a href="Education">Education</a>
-            <a href="Experience">Experience</a>
-            <a href="Contact">Contact</a>
-            <hr/>
-       </ul>
+       
+            <nav>
+          
+            <div><a href="#home" class="logo">Sourav</a></div>
+            <ul class="nav-links">
+              <li><a href="#home">Home</a></li>
+              <li><a href="#skills">Skills</a></li>
+              <li><a href="#education">Education</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </nav>
+          
+            
+          </nav>
+          <header>
+         
+            <header>
+                <a href="#home" class="logos">Sourav</a>
+                <i class="bx bx-menu" id="menu-icon"></i>
+              
+                <nav class="navbar">
+                  <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                  </ul>
+                </nav>
+              </header>
+              
+          </header>
+          
+           </header>
+   <main>
+    <section 
+     id="home" class="section home">
     
-       <button class="mobile-menu">☰</button>
-    </nav>
-    </header>
-    <section class="home">
         <div class="home-img">
-            <img src="main.jpg" alt="">
+            
+            <img src="./asset/main.jpg" alt="">
         </div>
+        </div>
+        
         <div class="home-content">
+        
             <h1>Hi, It's <span>Sourav</span></h1>
             <h1>
             I'm a 
             <span>
-            <span>CODER</span>
-            <span>DEVELOPER</span>
+            <span>Frontend developer</span>
+            <span>Game developer</span>
             <span>PROGRAMER</span>
-            <span>DESIGNER</span>
+            <span>UI DESIGNER</span>
             <span>2D ANIMATOR</span>
+           
             </span>
-            <p> I'm a web developer and freelance video editor. I create clean, responsive websites using HTML, CSS, and JavaScript, and also craft engaging videos and 2D animations for clients across platforms. I love blending design with functionality to bring creative ideas to life.</p>
+            <p> I'm a web developer and freelance video editor. I create clean, responsive websites using HTML, CSS, and JavaScript,
+                <br> and also craft engaging videos and 2D animations for clients across platforms.
+                <br> I love blending design with functionality to bring creative ideas to life.</p>
             <div class="social-icons">
                 <a href="https://www.linkedin.com/in/sourav-bhardwaj-7ab839297?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
                 <a href="https://github.com/Sourav-bhardwaj02" target="_blank"><i class="fa-brands fa-github"></i></a>
                
                 <a href=""><i class="fa-brands fa-instagram"></i></a>
             </div>
-            <a href="contact me" class="btn">Hire me</a>
-            <a href="cv" class="btn btn-primary">Download CV</a>
+            <a href="mailto:souravbhardwaj2005@gmail.com?subject=Hiring%20Enquiry&body=Hello%20Sourav,%0AI%20would%20like%20to%20hire%20you%20for%20a%20project." class="btn hire-btn" target="_blank">
+                Hire Me
+              </a>
+              
+            <a href="#" class="btn CV-btn">Download CV</a>
         </div>
     </section>
+  
   
     <section id="skills" class="section skills">
         <div class="container">
@@ -124,79 +160,108 @@
         <div class="container">
             <h2 class="section-title">Education</h2>
             <div class="education-item">
-                <h2>Maharshi Dayanand University </h2>
-                <div class="year">2023-2027</div>
-                <br>
-                <p>Bachelor of Technology in Computer Science
-                 - Present
-                <br>
-                Location : delhi, India</br>    
-                    
-                    </p>
+                <h2>Maharshi Dayanand University</h2>
+               <div class="year"><h4>2023-2027</h4></div>
+                <p><pre><h4>Bachelor of Technology in Computer Science - Present</h4></pre>
+               <pre><h4> Location : delhi, India</h4></pre></p>
             </div>
         </div>
     </section>
-      <!-- Projects Section -->
-      <section id="projects" class="section projects">
-        <div class="container">
-            <h2 class="section-title">My Projects</h2>
-            <div class="projects-grid">
-                <div class="project-card">
-                    <div class="project-image">
-                        <i class="fas fa-code"></i>
-                    </div>
-                    <div class="project-content">
-                        <h3 class="project-title">Sample Project 1</h3>
-                        <p class="project-description">
-                            This is a sample project description. Replace this with your actual project details, technologies used, and key features.
-                        </p>
-                        <div class="project-links">
-                            <a href="#"  target="_main" class="project-link">
-                                <i class=""></i> Live Demo
-                            </a>
-                            <a href="#" class="project-link">
-                                <i class="fab fa-github"></i> GitHub
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                  <!-- Projects Section 2 -->
-                    <div class="container">
-                        <div class="projects-grid">
-                            <div class="project-card">
-                                <div class="project-image">
-                                    <i class="fas fa-code"></i>
-                                </div>
-                                <div class="project-content">
-                                    <h3 class="project-title">Sample Project 1</h3>
-                                    <p class="project-description">
-                                        This is a sample project description. Replace this with your actual project details, technologies used, and key features.
-                                    </p>
-                                    <div class="project-links">
-                                        <a href="#" class="project-link">
-                                            <i class=""></i> Live Demo
-                                        </a>
-                                        <a href="#" class="project-link">
-                                            <i class="fab fa-github"></i> GitHub
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-    </section>
    
+                  <!-- Projects Section -->
+                  <section id="projects" class="projects-section">
+                    <h2>My Projects</h2>
+                    <div class="projects-grid">
+                      
+                      <div class="project-card">
+                        <img src="./asset/main2.jpg" alt="Project 1" class="project-image">
+                        <h3>Draw-motion</h3>
+                        <p>Draw-motion is a lightweight, browser-based animation tool that lets you create frame-by-frame animations
+                             with ease. </p>
+                        <a href="https://sourav-bhardwaj02.github.io/Draw-motion/" target="_blank" class="review-btn">Review Project</a>
+                      </div>
+                  
+                      <div class="project-card">
+                        <img src="./asset/to.do-img1.jpg" alt="Project 2" class="project-image">
+                        <h3>TO-DO List</h3>
+                        <p>Green Productivity is a minimalist to-do list web app designed to help you stay focused and organized. Easily add tasks,
+                             set a countdown timer for each, and mark them as complete.
+
+                        </p>
+                        <a href="https://sourav-bhardwaj02.github.io/TO-DO-app/" target="_blank" class="review-btn">Review Project</a>
+                      </div>
+                  
+                      <div class="project-card">
+                        <img src="./asset/main4.jpg" alt="Project 3" class="project-image">
+                        <h3>Project 3</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit...</p>
+                        <a href="#" class="review-btn">Review Project</a>
+                      </div>
+                       
+                      <div class="project-card">
+                        <img src="./asset/main4.jpg" alt="Project 3" class="project-image">
+                        <h3>Project 4</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit...</p>
+                        <a href="#" class="review-btn">Review Project</a>
+                      </div>
+                      
+                      <div class="project-card">
+                        <img src="./asset/main4.jpg" alt="Project 3" class="project-image">
+                        <h3>Project 5</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit...</p>
+                        <a href="#" class="review-btn">Review Project</a>
+                      </div>
+                      
+                      <div class="project-card">
+                        <img src="./asset/main4.jpg" alt="Project 3" class="project-image">
+                        <h3>Project 6</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit...</p>
+                        <a href="#" class="review-btn">Review Project</a>
+                      </div>
+                      <!-- Add more cards as needed -->
+                  
+                    </div>
+                  </section>
+                  
    <!--contact section-->
     <section class="contact" id="contact">
         <h2>Contact Me</h2>
         <p>Feel free to reach out to me for any opportunities or collaborations.</p>
         <p>Email: <a href="souravbhardwaj2005@gmail.com">souravbhardwaj2005@gmail.com</a></p>
         <p>LinkedIn: <a href="https://www.linkedin.com/in/sourav-bhardwaj-7ab839297?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">View Profile</a></p>
-        <form action="#" method="post">
+        <form action="" method="post">
             <input type="text" placeholder="Name" required>
             <input type="email" placeholder="Email" required>
             <textarea placeholder="Message" rows="5" required></textarea>
-            <button type="submit" class="btn">Send Message</button>
+            <button type="submit" class="btn btn-message">Send Message </button> 
         </form>
     </section>
+</main>
+<footer class="footer">
+    <div class="social-icons">
+        <a href="https://www.linkedin.com/in/sourav-bhardwaj-7ab839297?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://github.com/Sourav-bhardwaj02" target="_blank"><i class="fa-brands fa-github"></i></a>
+       
+        <a href=""><i class="fa-brands fa-instagram"></i></a>
+    </div>
+         <ul class="list">
+            <li>
+                <a href="#">FAQs</a>
+            </li>
+             <a href="#about">About Me</a>
+            </li>
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+         </ul>
+         <p class="copyright"> 
+          © Sourav | All right Reserved
+         </p>
+</footer>
+
     <script src="script.js"></script>
 
 </body>
