@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-=======
+
 <div class="prose prose-sm md:prose-base lg:prose-lg max-w-none prose-headings:font-bold prose-a:text-blue-600" style="user-select: none;"><div id="top" class="">
 
 <div align="center" class="text-center">
